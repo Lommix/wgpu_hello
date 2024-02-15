@@ -1,0 +1,14 @@
+[package]
+name = "webgpu_hello"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+env_logger = "0.11.2"
+log = "0.4.20"
+tokio = { version = "1.36.0", features = ["macros", "rt", "rt-multi-thread"] }
+wgpu = { version = "0.19.1", features = ["trace", "hal", "naga", "naga-ir", "webgl", "spirv"] }
+winit = { version = "0.29.10", features = ["wayland"] }
