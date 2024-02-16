@@ -1,3 +1,5 @@
-# WGPU hello_world
+# wgpu hello_world
 
-drawing a triangle
+drawing a quad with texture in 420 lines of code
+
+![ferris](docs/quad.jpg)
